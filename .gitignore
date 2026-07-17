@@ -1,0 +1,35 @@
+# gradle
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+.classpath
+.project
+.settings/
+bin/
+.c9/
+*.c9search
+*.atlproject
+
+# idea
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+*.log
+*.potx
+*.pot
+
+# vscode
+.vscode/
+.history/
+
+# macos
+.DS_Store/
+
+# fabric
+run/

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "region-generation",
+  "version": "${mod_version}",
+  "name": "Region Generation",
+  "description": "Custom world generation with 6 unique regions",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {
+    "homepage": "https://github.com/wtfiamsosickofthis-collab/minecraft-region-generation"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.minecraft.region.RegionGenerationMod"
+    ]
+  },
+  "mixins": [
+    "region_generation.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "~${minecraft_version}"
+  }
+}
