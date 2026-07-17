@@ -33,3 +33,7 @@ bin/
 
 # fabric
 run/
+
+# gradle wrapper
+.gradle
+gradle-app.setting
