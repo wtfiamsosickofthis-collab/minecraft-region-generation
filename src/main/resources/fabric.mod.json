@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "region-generation",
-  "version": "${mod_version}",
+  "version": "${version}",
   "name": "Region Generation",
   "description": "Custom world generation with 6 unique regions",
   "authors": [
@@ -21,7 +21,7 @@
     "region_generation.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": ">=0.15.3",
     "fabric-api": "*",
     "minecraft": "${minecraft_version}"
   }
